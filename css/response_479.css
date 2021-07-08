@@ -1,0 +1,481 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs button.mob_big
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo,
+    header .logo img
+    {
+        width: 152px;
+    }
+
+
+    header .contacts
+    {
+        font-size: 15px;
+    }
+
+
+    header .menu .item > a
+    {
+        font-size: 17px;
+    }
+
+
+    header .mob_menu_btn
+    {
+        margin-left: 10px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block > img
+    {
+        width: calc(100% + 40px);
+        max-width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+    .text_block .table_wrap
+    {
+        padding-bottom: 8px;
+    }
+
+    .text_block table
+    {
+        width: 480px;
+    }
+
+    .text_block table th,
+    .text_block table td
+    {
+        padding-left: 20px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .cont
+    {
+        min-height: 360px;
+        padding-top: 52px;
+        padding-bottom: 52px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+
+        --articles_gutter: 20px;
+    }
+
+    .articles .row > *
+    {
+        width: calc(100% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    /*---------------------
+        Categories list
+    ---------------------*/
+    .categories_list > *
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*--------------
+        Catalogs
+    --------------*/
+    .catalogs .row
+    {
+        margin-bottom: -32px;
+        margin-left: -20px;
+    }
+
+    .catalogs .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 32px;
+        margin-left: 20px;
+    }
+
+
+
+    /*---------------------
+        Categories wall
+    ---------------------*/
+    .categories_wall .category .thumb
+    {
+        width: 92px;
+
+        align-self: flex-start;
+    }
+
+    .categories_wall .category .thumb + *
+    {
+        width: calc(100% - 112px);
+    }
+
+    .categories_wall .category .main
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+
+    /*-------------------
+        Category info
+    -------------------*/
+    .category_info .sub_categories .row
+    {
+        margin-bottom: -32px;
+        margin-left: -20px;
+    }
+
+    .category_info .sub_categories .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 32px;
+        margin-left: 20px;
+    }
+
+
+    .category_info .sub_categories .category .thumb
+    {
+        height: 116px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data .company_desc,
+    .contacts_info .data .item
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*-----------------------
+        LK info - LK menu
+    -----------------------*/
+    .lk_info .lk_menu
+    {
+        font-size: 15px;
+
+        margin-bottom: 20px;
+        margin-left: -24px;
+
+        justify-content: space-between;
+    }
+
+    .lk_info .lk_menu > *
+    {
+        margin-left: 24px;
+    }
+
+
+
+    /*------------------------
+        LK info - Personal
+    ------------------------*/
+    .lk_info .personal .form .line.row .label
+    {
+        font-size: 14px;
+
+        width: 148px;
+    }
+
+    .lk_info .personal .form .line.row .field
+    {
+        width: calc(100% - 148px);
+    }
+
+
+
+    /*------------------------
+        LK info - Products
+    ------------------------*/
+    .lk_info .products table td.articul
+    {
+        width: 120px;
+        min-width: 120px;
+    }
+
+    .lk_info .products table td.name
+    {
+        font-size: 14px;
+
+        width: calc(100% - 120px);
+    }
+
+
+
+    /*-------------------------
+        LK info - Estimates
+    -------------------------*/
+    .lk_info .estimates .estimate .product > *
+    {
+        width: 50%;
+        min-width: 50%;
+    }
+
+    .lk_info .estimates .estimate .product > *.name
+    {
+        width: 100%;
+        min-width: 100%;
+    }
+
+
+    .lk_info .estimates .links button
+    {
+        width: calc(100% - 12px);
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .head .breadcrumbs
+    {
+        line-height: 20px;
+    }
+
+
+
+    .product_info .data .options .vals > *
+    {
+        width: calc(25% - 12px);
+    }
+
+
+    .product_info .data .features .name
+    {
+        width: 140px;
+    }
+
+    .product_info .data .features .val
+    {
+        width: calc(100% - 140px);
+    }
+
+
+
+    .product_info .text_block
+    {
+        line-height: 22px;
+    }
+
+
+
+    .product_info .catalogs .row
+    {
+        margin-left: -20px;
+    }
+
+    .product_info .catalogs .row > *
+    {
+        width: calc(50% - 20px);
+        margin-left: 20px;
+    }
+
+
+
+    /*-------------------
+        List products
+    -------------------*/
+    .list_products .block_title
+    {
+        font-size: 18px;
+    }
+
+
+    .list_products .product > *
+    {
+        width: 50%;
+        min-width: 50%;
+    }
+
+
+
+    /*----------------------
+        Related products
+    ----------------------*/
+    .related_products .row
+    {
+        margin-left: -20px;
+    }
+
+    .related_products .row > *
+    {
+        width: calc(50% - 20px);
+        margin-left: 20px;
+    }
+
+
+    .related_products .product
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .related_products .product .thumb
+    {
+        height: 124px;
+    }
+
+
+
+    /*------------------
+        Configurator
+    ------------------*/
+    .configurator .option.type .vals .row
+    {
+        margin-bottom: -24px;
+    }
+
+    .configurator .option.type .vals .row > *
+    {
+        width: calc(100% - 24px);
+        max-width: calc(100% - 24px);
+        margin-bottom: 24px;
+    }
+
+    .configurator .option.type .vals label .name
+    {
+        width: 100%;
+    }
+
+
+    .configurator .option .name
+    {
+        line-height: 20px;
+    }
+
+
+    .configurator .row .col
+    {
+        width: 100%;
+    }
+
+
+    .configurator .row .image
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+
+    /*-----------------
+        Order block
+    -----------------*/
+    .order_block .form
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo img
+    {
+        width: 152px;
+    }
+
+
+    footer .contacts > * + *
+    {
+        margin-top: 8px;
+    }
+
+
+    footer .links a
+    {
+        white-space: normal;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}
