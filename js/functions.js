@@ -147,6 +147,10 @@ $(() => {
 			$('.mini_modal').removeClass('active')
 			$(modalId).addClass('active')
 
+			if (modalId === '#search_modal') setTimeout(() => {
+				$('header .search .mini_modal form .input').focus()
+			}, 100)
+
 			if (is_touch_device()) $('body').css('cursor', 'pointer')
 		}
 	})
